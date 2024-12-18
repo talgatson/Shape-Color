@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--reset button part-->
+    <div class="reset">
+        <button class="reset__btn">Reset button X</button>
+    </div>
+    <!--shape type-->
+   <div class="type">
+        <p class="type__text"></p>
+        <div class="type__circle"></div> 
+        <div class="type__square"></div> 
+   </div>
+   <!--shape select part-->
+   <div class="shape">
+    <h3 class="shape__header">Выбрать фигуру:</h3> 
+    <button id="shape__btn-circle">Круг</button>
+    <button id="shape__btn-square">Квадрат</button>
+   </div>
+   <!-- color select part-->
+   <div class="color">
+    <h3 class="color__header">Выбрать цвет:</h3>
+    <button class="color__btn-red">🔴Red</button>
+    <button class="color__btn-yellow">🟡Yellow</button>
+    <button class="color__btn-green">🟢Green</button>
+    <button class="color__btn-blue">🔵Blue</button>
+   </div>
+   <!-- form part -->
+   <form id="form">
+    <h3 class="form__header">Напишите текст:</h3>
+    <input type="text" name="username" id="username" placeholder="Введите текст...">
+    <button type="submit" id="button">Отправить</button>
+   </form>
+    <script src="./script.js"></script>
+</body>
+</html>
